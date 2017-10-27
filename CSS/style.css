@@ -1,0 +1,207 @@
+.wrapper{
+	width: 940px;
+	height: 452px;
+	border-radius: 18px;
+	background-color: #fff;
+	margin: 200px 242px 635px 242px;
+	overflow: hidden;
+}
+.left{
+	width: 400px;
+	height: 452px;
+	background: url("../img/fonLeft.jpg");
+	float: left;
+	position: relative;
+}
+.white-block{
+	width: 270px;
+	height: 270px;
+	background-color: #fff;
+	position: absolute;
+	bottom: 92px;
+	left: 64px;
+	border-radius: 9px;
+}
+.month{
+	font-family: GotPB;
+	color: #575b66;
+	font-size: 21px;
+	text-align: center;
+	line-height: 32px;
+}
+.value1{
+	font-family: GotPL;
+	color: #9aaf4e;
+	font-size: 69px;
+	text-align: center;
+	position: relative;
+	top: -42px;
+}
+.value2{
+	font-family: GotP;
+	color: #9296a0;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	top: -112px;
+}
+.massage{
+	font-family: GotP;
+	color: #876c27;
+	font-size: 21px;
+	text-align: center;
+	position: relative;
+	bottom: 89px;
+	z-index: 1;
+}
+.yel-block{
+	width: 280px;
+	height: 50px;
+	border-radius: 7px;
+	background-color: #fac746;
+	position: relative;
+	bottom: 124px;
+	left: -5px;
+}
+.wreath{
+	width: 52px;
+	height: 59px;
+	background: url("../img/wreath.png");
+	position: absolute;
+	left: 293px;
+	top: 72px;
+}
+.right{
+	width: 540px;
+	float: left;
+}
+.right > div {
+	padding: 138px 55px;
+}
+.right .text{
+	font-family: GotP;
+	text-align: left;
+	color: #575b66;
+	font-size: 16px;
+	position: relative;
+	bottom: 89px;
+}
+.methods{
+	width: 173px;
+	font-family: GotP;
+	text-transform: uppercase;
+	color: #c2c4cc;
+	font-size: 16px;
+	position: relative;
+	top: -58px;
+}
+.cost>div {
+	float: left;
+}
+.priv {
+	cursor:pointer;
+	position: relative;
+	top: -92px;
+	right: -191px;
+	background: url(../img/sprite.png) 1px 20px;
+	width: 21px;
+	height: 18px;	
+}
+.priv:hover {
+	background: url(../img/sprite.png) 1px -5px;	
+}
+.visa {
+	cursor:pointer;
+	position: relative;
+	top: -98px;
+	right: -205px;
+	background: url(../img/sprite.png) -20px 25px;
+	width: 67px;
+	height: 24px;	
+}
+.visa:hover {
+	background: url(../img/sprite.png) -20px 52px;	
+}
+.mc {
+	cursor:pointer;
+	position: relative;
+	top: -96px;
+	right: -223px;
+	background: url(../img/sprite.png) -85px 25px;
+	width: 45px;
+	height: 25px;	
+}
+.mc:hover {
+	background: url(../img/sprite.png) -85px 52px;	
+}
+span{
+	font-weight: bold; 
+	font-family: GotPM;
+}
+.right .buynow {
+	margin-top: -30px;
+}
+.right .buynow{
+	cursor:pointer;
+    display:block;
+    width: 276px;
+    height: 54px;
+    background-image:url("../img/btn1.png");
+    background-repeat:no-repeat;
+}
+.right .buynow a {
+	text-align: center;
+	color: #fff;
+	font-family: GotP;
+	text-decoration: none;     
+	line-height: 56px; 
+	position: relative;
+	left: 50px;
+}
+.right .buynow:hover {
+	background: url(../img/btn1h.png);
+}
+.right .send {
+	margin-top: 50px;
+}
+.right .send{
+	cursor:pointer;
+    display:block;
+    width: 197px;
+    height: 45px;
+    background-image:url("../img/btn2.png");
+    background-repeat:no-repeat;
+}
+.right .send a {
+	text-align: center;
+	color: #876c27;
+	font-family: GotP;
+	text-decoration: none;     
+	line-height: 56px; 
+	position: relative;
+	left: 30px;
+	top: -5px;
+}
+.right .send:hover {
+	background: url(../img/btn2h.png);
+}
+.appl{
+	clear: both;
+	font-family: GotP;
+	color: #575b66;
+	font-size: 16px;
+	position: relative;
+	top: 45px;
+}
+.x {
+	position: absolute;
+    left: 1150px;
+    top: 215px;
+    color: black;
+    width: 19px;
+    height: 19px;
+    background: url(../img/x.png);
+}
+.x:hover {
+	background: url(../img/xh.png);
+}
